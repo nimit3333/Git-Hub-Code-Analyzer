@@ -43,13 +43,12 @@ public class CodeAnalysisService {
                     .bodyValue(body)
                     .retrieve()
                     .bodyToMono(String.class)
-                    .timeout(Duration.ofSeconds(6)) // ✅ prevent hanging
                     .block();
 
             return extractText(response);
 
         } catch (Exception e) {
-            return "AI service unavailable. Please try again.";
+            return "AI service unavailable. Please try again."+e.getMessage();
         }
     }
 
