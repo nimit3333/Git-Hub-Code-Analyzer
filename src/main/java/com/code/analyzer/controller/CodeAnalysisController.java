@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.*;
 @CrossOrigin(origins = {
         "chrome-extension://keafhfoeinjobhmcejimmnceebkfibgi",
         "https://github.com",
-        "http://127.0.0.1:8080/api/code/analyze"
+        "https://git-hub-code-analyzer.onrender.com/api/code/analyze"
 })
 public class CodeAnalysisController {
 

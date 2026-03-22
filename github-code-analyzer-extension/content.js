@@ -1,6 +1,6 @@
 console.log("GitHub Code Analyzer Loaded");
 
-const API_URL = "http://127.0.0.1:8080/api/code/analyze";
+const API_URL = "https://git-hub-code-analyzer.onrender.com/api/code/analyze";
 
 // ✅ Cache
 const codeCache = new Map();
