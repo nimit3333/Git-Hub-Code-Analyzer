@@ -4,11 +4,11 @@
   "version": "1.0.1",
   "manifest_version": 3,
 
-  "permissions": ["activeTab"],
+  "permissions": [],
 
   "host_permissions": [
     "*://github.com/*",
-    "https://git-hub-code-analyzer.onrender.com/api/code/analyze"
+    "https://git-hub-code-analyzer.onrender.com/*"
   ],
   "icons": {
     "16": "icons/icon16.png",
