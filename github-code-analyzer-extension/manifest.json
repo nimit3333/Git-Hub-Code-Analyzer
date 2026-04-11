@@ -1,7 +1,7 @@
 {
   "name": "GitHub AI Code Analyzer",
   "description": "This extension allows you to Analyze and understand any GitHub code instantly in the most simple technical terms.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "manifest_version": 3,
 
   "permissions": [],
